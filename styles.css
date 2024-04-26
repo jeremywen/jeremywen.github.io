@@ -12,11 +12,17 @@ body {
     background-color: rgb(25, 150, 252);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
 }
+
 .card:hover {
+    color: rgb(240,240,240);
     background-color: rgb(35, 160, 255);
 }
 
-a {
+div {
     color: white;
+    cursor: pointer;
+}
+
+a {
     text-decoration: none;
 }
