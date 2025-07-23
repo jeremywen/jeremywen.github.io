@@ -68,5 +68,8 @@ hr {
     .message {
         width: 50%;
     }
+    hr {
+        width: 50%;
+    }
 }
 
