@@ -51,7 +51,7 @@ a {
     text-decoration: none;
 }
 
-hr {
+hr.half {
     width: 50%;
     border: none;
     height: 2px;
@@ -68,7 +68,7 @@ hr {
     .message {
         width: 50%;
     }
-    hr {
+    hr.half {
         width: 50%;
     }
 }
