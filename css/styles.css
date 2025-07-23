@@ -11,8 +11,13 @@ h2 {
     margin-top: 2em;
 }
 
+h3 {
+    margin-top: 4em;
+    font-size: 25px;
+}
+
 .message {
-    width: 75%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-color: lightgray;
@@ -46,11 +51,22 @@ a {
     text-decoration: none;
 }
 
+hr {
+    width: 50%;
+    border: none;
+    height: 2px;
+    background-color: rgb(25, 150, 252);
+}
+.mt {
+    margin-top: 4em;
+}
+
 @media (min-width:900px) {
     .card {
         width: 40%;
     }
     .message {
-        width: 40%;
+        width: 50%;
     }
 }
+
