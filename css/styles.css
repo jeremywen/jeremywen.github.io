@@ -11,9 +11,9 @@ h2 {
     margin-top: 2em;
 }
 
-h3 {
+.header {
     margin-top: 4em;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .message {
@@ -51,14 +51,14 @@ a {
     text-decoration: none;
 }
 
-hr.half {
-    width: 50%;
+.mt {
+    margin-top: 4em;
+}
+hr {
+    width: 100%;
     border: none;
     height: 2px;
     background-color: rgb(25, 150, 252);
-}
-.mt {
-    margin-top: 4em;
 }
 
 @media (min-width:900px) {
@@ -68,8 +68,8 @@ hr.half {
     .message {
         width: 50%;
     }
-    hr.half {
-        width: 50%;
+    hr {
+        width: 40%;
     }
 }
 
