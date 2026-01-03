@@ -14,9 +14,16 @@ h2 {
 .header, h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bolder;
     color: #1996fc;
+}
+
+h5 {
+    margin-top: 0;
+    color: black;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .message {
